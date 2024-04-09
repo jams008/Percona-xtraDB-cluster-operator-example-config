@@ -1,0 +1,16 @@
+apiVersion: pxc.percona.com/v1
+kind: PerconaXtraDBClusterRestore
+metadata:
+  name: restore-minimal-cluster-1
+#  annotations:
+#    percona.com/headless-service: "true"
+spec:
+  pxcCluster: minimal-cluster
+  backupName: cron-minimal-cluster-s3-do-bucket-20244964059-3o0c4
+  resources:
+    requests:
+      memory: 100M
+      cpu: 100m
+    limits:
+      memory: 200M
+      cpu: 200m

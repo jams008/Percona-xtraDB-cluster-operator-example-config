@@ -48,6 +48,7 @@ kubectl -n (namespace) apply -f restore-db-cr.yaml
 
 # backup and restore
 https://github.com/percona/percona-xtradb-cluster-operator/blob/main/deploy/backup/README.md
+https://github.com/percona/percona-xtradb-cluster-operator/blob/v1.14.0/deploy/cr.yaml
 
 # setup cluster template doc
 https://github.com/percona/percona-xtradb-cluster-operator/tree/main/deploy \

@@ -69,7 +69,7 @@ spec:
     image: percona/percona-xtradb-cluster-operator:1.14.0-logcollector
 
   backup:
-    image: perconalab/percona-xtradb-cluster-operator:main-pxc8.0-backup
+    image: percona/percona-xtradb-cluster-operator:1.14.0-pxc8.0-backup-pxb8.0.35
     serviceAccountName: percona-xtradb-cluster-operator
     storages:
       s3-do-bucket:
